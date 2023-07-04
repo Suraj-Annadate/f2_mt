@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #111111;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 25%;
+    padding-top: 10px;
+}
+
+input[type="text"]::placeholder {    
+    color: #888888;    
+}
+
+input{
+    background-color: #111111;
+    box-shadow: none;
+    border: 1px solid white;
+    padding: 10px 16px;
+    margin-bottom:2px;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+
+#age, #cgpa{
+    color: white;
+}
+
+#search-input {
+    width: 78%;
+}
+#add-student-btn{
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form button {
+    margin-right: 10px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    
+}
+tbody{
+    border-bottom: none;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+}
